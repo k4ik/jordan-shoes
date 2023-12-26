@@ -94,16 +94,16 @@ header .banner .banner-content p {
 }
 .shoes-section article {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   justify-content: center;
-  gap: 40px;
+  grid-gap: 20px;
 }
 .shoes-section article .card {
-  width: 300px;
+  width: 350px;
 }
 .shoes-section article .card .card-image-box {
   background-color: #F3F7FF;
-  width: 300px;
+  width: 350px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -126,36 +126,8 @@ header .banner .banner-content p {
   color: #7CA2F4;
   font-size: 12px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .shoes-section article {
     grid-template-columns: auto;
   }
-  .shoes-section article .card {
-    width: 410px;
-  }
-  .shoes-section article .card .card-image-box {
-    width: 410px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .shoes-section article .card .card-image-box img {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 425px) {
-  .shoes-section article .card {
-    width: 300px;
-  }
-  .shoes-section article .card .card-image-box {
-    width: 300px;
-  }
-  .shoes-section article .card .card-image-box img {
-    width: 50%;
-  }
-}
-
-body {
-  font-family: "Archivo", sans-serif;
 }/*# sourceMappingURL=styles.css.map */

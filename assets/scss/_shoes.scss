@@ -18,18 +18,17 @@
 
     article {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         justify-content: center;
-        gap: 40px;
-
+        grid-gap: 20px;
     
         
         .card {
-            width: 300px;
+            width: 350px;
 
             .card-image-box {
                 background-color: $brand-color2;
-                width: 300px;
+                width: 350px;
                 height: 200px;
                 display: flex;
                 justify-content: center;
@@ -59,43 +58,10 @@
             }
         }
     }
-    @media screen and (max-width: 1024px){
+
+    @media screen and (max-width: 768px){
         article {
             grid-template-columns: auto;
-
-            .card {
-                width: 410px;
-    
-                .card-image-box {
-                    width: 410px;
-                    height: 200px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-    
-                    img {
-                        width: 50%;
-                        
-                    }
-                }
-            }
-        }
-    }
-    
-    @media screen and (max-width: 425px){
-        article {
-            .card {
-                width: 300px;
-    
-                .card-image-box {
-                    width: 300px;
-
-                    img {
-                        width: 50%;
-                        
-                    }
-                }
-            }
         }
     }
 }
