@@ -55,4 +55,32 @@ header {
             }    
         }
     }
+
+    @media screen and (max-width: 1024px){
+        .banner {
+            background: url('../images/image-michael-jordan-tablet.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                left: 30px;
+                max-width: 380px;
+            }
+        }
+    }
+        
+    @media screen and (max-width: 425px){
+        .banner {
+            background: url('../images/image-michael-jordan-mobile.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                position: absolute;
+                left: 0;
+                padding: 0 10px;
+                width: 100%;
+            }
+        }
+    }
 }

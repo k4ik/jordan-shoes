@@ -52,6 +52,32 @@ header .banner .banner-content h1 {
 header .banner .banner-content p {
   color: #FFFFFF;
 }
+@media screen and (max-width: 1024px) {
+  header .banner {
+    background: url("../images/image-michael-jordan-tablet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  header .banner .banner-content {
+    left: 30px;
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 425px) {
+  header .banner {
+    background: url("../images/image-michael-jordan-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  header .banner .banner-content {
+    position: absolute;
+    left: 0;
+    padding: 0 10px;
+    width: 100%;
+  }
+}
 
 .shoes-section {
   margin: 40px;
@@ -95,6 +121,35 @@ header .banner .banner-content p {
 .shoes-section article .card span {
   color: #7CA2F4;
   font-size: 12px;
+}
+@media screen and (max-width: 1024px) {
+  .shoes-section article {
+    grid-template-columns: auto;
+  }
+  .shoes-section article .card {
+    width: 410px;
+  }
+  .shoes-section article .card .card-image-box {
+    width: 410px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shoes-section article .card .card-image-box img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .shoes-section article .card {
+    width: 300px;
+  }
+  .shoes-section article .card .card-image-box {
+    width: 300px;
+  }
+  .shoes-section article .card .card-image-box img {
+    width: 50%;
+  }
 }
 
 body {
