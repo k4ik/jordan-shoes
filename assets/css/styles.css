@@ -80,7 +80,9 @@ header .banner .banner-content p {
 }
 
 .shoes-section {
-  margin: 40px;
+  max-width: 1340px;
+  width: 100%;
+  margin: 40px auto;
   color: #121214;
 }
 .shoes-section .shoes-div {
@@ -94,16 +96,15 @@ header .banner .banner-content p {
 }
 .shoes-section article {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fill, 340px);
   justify-content: center;
-  grid-gap: 20px;
 }
 .shoes-section article .card {
-  width: 350px;
+  width: 320px;
 }
 .shoes-section article .card .card-image-box {
   background-color: #F3F7FF;
-  width: 350px;
+  width: 320px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -125,9 +126,4 @@ header .banner .banner-content p {
 .shoes-section article .card span {
   color: #7CA2F4;
   font-size: 12px;
-}
-@media screen and (max-width: 768px) {
-  .shoes-section article {
-    grid-template-columns: auto;
-  }
 }/*# sourceMappingURL=styles.css.map */
