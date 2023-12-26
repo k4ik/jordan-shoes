@@ -1,0 +1,58 @@
+@import 'variables';
+
+header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: $font;
+
+    .anuncio {
+        text-align: center;
+        background-color: $dark-30;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .banner {
+        background: url('../images/image-michael-jordan.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        position: relative;
+
+        .banner-content {
+            position: relative;
+            top: 25%;
+            bottom: 25%;
+            left: 100px;
+            width: 100%;
+            max-width: 450px;
+
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                color: $dark-30;
+    
+                img {
+                    width: 48px;
+                }
+    
+                span {
+                    font-size: 24px;
+                }
+            }
+    
+            h1 {
+                color: $dark-30;
+                font-size: 32px;
+                margin: 15px 0 10px;
+            }
+    
+            p {
+                color: $dark-30;
+            }    
+        }
+    }
+}
