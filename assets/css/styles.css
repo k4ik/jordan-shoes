@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Archivo", sans-serif;
+}
+header .anuncio {
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 10px;
+}
+header .banner {
+  background: url("../images/image-michael-jordan.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+header .banner .banner-content {
+  position: relative;
+  top: 25%;
+  bottom: 25%;
+  left: 100px;
+  width: 100%;
+  max-width: 450px;
+}
+header .banner .banner-content .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #FFFFFF;
+}
+header .banner .banner-content .logo img {
+  width: 48px;
+}
+header .banner .banner-content .logo span {
+  font-size: 24px;
+}
+header .banner .banner-content h1 {
+  color: #FFFFFF;
+  font-size: 32px;
+  margin: 15px 0 10px;
+}
+header .banner .banner-content p {
+  color: #FFFFFF;
+}
+
+.shoes-section {
+  margin: 40px;
+  color: #121214;
+}
+.shoes-section .shoes-div {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 40px;
+}
+.shoes-section .shoes-div h2 {
+  margin-bottom: 10px;
+}
+.shoes-section article {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 40px;
+}
+.shoes-section article .card {
+  width: 300px;
+}
+.shoes-section article .card .card-image-box {
+  background-color: #F3F7FF;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoes-section article .card .card-image-box img {
+  width: 50%;
+}
+.shoes-section article .card p {
+  margin: 10px 0;
+}
+.shoes-section article .card p:last-child {
+  font-size: 20px;
+}
+.shoes-section article .card span {
+  color: #7CA2F4;
+  font-size: 12px;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
