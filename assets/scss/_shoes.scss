@@ -1,0 +1,55 @@
+@import 'variables';
+
+.shoes-section {
+    margin: 40px;
+    color: $dark-10;
+
+    .shoes-div {
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 40px;
+
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        gap: 40px;
+
+        .card {
+            width: 300px;
+
+            .card-image-box {
+                background-color: $brand-color2;
+                width: 300px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 50%;
+                    
+                }
+            }
+
+            p {
+                margin: 10px 0;
+
+                &:last-child {
+                    font-size: 20px;
+                }
+            }
+
+            span {
+                color: $brand-color;
+                font-size: 12px;
+            }
+        }
+    }
+}
