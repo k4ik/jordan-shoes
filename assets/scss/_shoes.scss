@@ -37,7 +37,11 @@
 
                 img {
                     width: 50%;
-                    
+                            
+                    &:hover {
+                        transform: scale(1.5);
+                        transition: transform .5s;
+                    }
                 }
             }
 

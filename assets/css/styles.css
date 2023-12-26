@@ -112,6 +112,10 @@ header .banner .banner-content p {
 .shoes-section article .card .card-image-box img {
   width: 50%;
 }
+.shoes-section article .card .card-image-box img:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
 .shoes-section article .card p {
   margin: 10px 0;
 }
