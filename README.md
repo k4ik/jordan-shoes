@@ -7,4 +7,4 @@
 - SASS
 
 # Deploy 
-- [Github Pages](https://k4ik.gitbub.io/jordan-shoes)
+- [Github Pages](https://k4ik.github.io/jordan-shoes/)
